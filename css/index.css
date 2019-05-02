@@ -173,35 +173,38 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.header {
+.menu {
+  width: 100%;
+  border-bottom: 2px dashed silver;
+}
+.menu .header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   padding: 1.2rem 0;
-  border-bottom: 3px dashed #C0C0C0;
 }
 @media (max-width:500px) {
-  .header {
+  .menu .header {
     display: block;
     text-align: center;
   }
 }
-.header h2 {
+.menu .header h2 {
   font-size: 4.9rem;
 }
 @media (max-width:500px) {
-  .header h2 {
+  .menu .header h2 {
     font-size: 4rem;
   }
 }
-.header a {
+.menu .header a {
   padding-right: 3rem;
   font-size: 1.7rem;
   text-decoration: none;
   color: black;
 }
 @media (max-width:500px) {
-  .header a {
+  .menu .header a {
     padding-right: 5rem;
   }
 }
@@ -225,7 +228,7 @@ img {
 }
 @media (max-width:500px) {
   .home .headerBody {
-    margin: 2rem;
+    margin: -0.1rem 2rem;
   }
 }
 .home .headerBody .headerBody-intro {
