@@ -1,1 +1,23 @@
 // Mixins in here
+.menu-decoration {
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: black;
+}
+
+//buttons 
+.buttons(@backgroundcolor;
+
+@font-size) {
+    background: @backgroundcolor;
+    color: @main-bg;
+    padding: 1rem 0;
+    font-size: @font-size;
+    text-align: center;
+    border-radius: 10px;
+}
+
+//mobile version margin
+.space(@marginTop) {
+    margin: @marginTop @space;
+}

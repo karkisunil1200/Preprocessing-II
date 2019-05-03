@@ -1,1 +1,36 @@
 // Navigation Styles here
+.menu {
+    width: 100%;
+    border-bottom: 2px dashed silver;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 1.2rem 0;
+
+        @media @mobile {
+            display: block;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: @titleFont;
+
+            @media @mobile {
+                font-size: 4rem;
+            }
+        }
+
+        a {
+            padding-right: 3rem;
+            .menu-decoration();
+
+
+
+            @media @mobile {
+                padding-left: 5px;
+            }
+        }
+    }
+}
